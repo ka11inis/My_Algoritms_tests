@@ -12,3 +12,10 @@ Here I try and explore various algorithms
  - [Bubble Sort](https://github.com/ka11inis/My_Algoritms_tests/tree/master/sort/Bubble%20Sort)
  - [Merge Sprt](https://github.com/ka11inis/My_Algoritms_tests/tree/master/sort/Merge%20Sort)
  - [Quick Sort](https://github.com/ka11inis/My_Algoritms_tests/tree/master/sort/Quick%20Sort)
+
+#
+
+##### Αλγόριθμοι Αναζήτησης 
+##### Search Algorithns
+
+ - [Linear Search](https://github.com/ka11inis/My_Algoritms_tests/tree/master/search/Linear%20Search)
