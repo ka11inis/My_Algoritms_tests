@@ -22,6 +22,6 @@ Here I try and explore various algorithms
 
 #
 
-#### Προβλήματα από το Project Euler
-#### Problems from Project Euler 
+##### Προβλήματα από το Project Euler
+##### Problems from Project Euler 
  - [Project Euler](https://github.com/ka11inis/My_Algoritms_tests/tree/master/Project%20Euler)
