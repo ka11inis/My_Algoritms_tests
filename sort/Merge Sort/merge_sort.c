@@ -93,7 +93,6 @@ void fill_array(int* arr){
 
 int main(int argc, char *argv){
     int arr[ARR_LENGTH];
-
     fill_array( &arr[0] );
     //print_array(arr);  //Εκτυπώνει πριν την ταξινόμηση
     merge_sort(arr, 0, ARR_LENGTH-1 );
