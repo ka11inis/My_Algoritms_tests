@@ -19,9 +19,12 @@ Here I test and explore various algorithms
 ##### Search Algorithms
 
  - [Linear Search](https://github.com/ka11inis/My_Algoritms_tests/tree/master/search/Linear%20Search)
+ - [Binary Search]()
+ 
 
 #
 
 ##### Προβλήματα από το Project Euler
 ##### Problems from Project Euler 
  - [Project Euler](https://github.com/ka11inis/My_Algoritms_tests/tree/master/Project%20Euler)
+
