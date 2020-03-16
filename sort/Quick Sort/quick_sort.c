@@ -15,7 +15,7 @@
 #define ARR_LEN 1000000  //1.000.000   [0..999999]
 
 //Στη swap συνάρτηση αντιμετατίθενται δύο μεταβλητές
-//The swap function, take two variables and are swapped
+//In the swap function, two variables are swapped
 //a=b, b=a
 void swap(int* a, int* b){
     int tmp = *a; *a = *b; *b = tmp;
@@ -24,9 +24,9 @@ void swap(int* a, int* b){
 //Η συνάρτηση partition παίρνει το τελευταίο στοιχείο σαν pivot
 //το και ταξινομεί τα μικρότερα στοιχεία αριστερά  του και τα 
 //μεγαλύτερα στοιχεία δεξιά του
-//The function partition takes the last element as a pivot 
-//and puts all the smaller elements on the left and all the 
-//larger elements on the right.
+//The partition function takes the last element as a pivot 
+//and puts all the smaller elements on its left and all the 
+//larger elements on its right.
 //[9,4,6,7,6,0,4]  ->  [0,4,4,9,6,7,6] 
 int partition(int arr[], int lo, int hi){
     
@@ -58,7 +58,7 @@ int partition(int arr[], int lo, int hi){
 //Ο αναδρομικός αλγόριθμος τις quicksort
 void quick_sort(int* arr, int lo, int hi){
     //Όσο η "lo" είναι μικρότερη τις "hi"
-    //While the "lo" is less than "hi"
+    //While the "lo" is lower than "hi"
     if (lo < hi){
         //Επιστρέφει το σημείο διαχωρισμού του πίνακα
         //Returns the separation point of the table

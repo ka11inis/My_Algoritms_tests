@@ -14,10 +14,10 @@
 #define ARR_LENGTH  1000000 //1.000.000   [0..999999]
 
 //H συνάρτηση merge ενώνει τους δύο υποπίνακες σε έναν ταξινομημένο πίνακα
-//The merge function joins  two subtables to a sorted table
+//The merge function joins two sub-tables into a sorted table
 void merge(int arr[], int lo, int middle, int hi){
     //Αρχικοποίηση του πινάκα
-    //Initialization the table
+    //Initialization of the table
     int i,j,k;
     int left_size = middle - lo + 1;
     int right_size = hi - middle;

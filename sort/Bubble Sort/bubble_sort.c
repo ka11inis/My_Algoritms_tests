@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 //Η συνάρτηση swap παίρνει 2 μεταβλητές και της αντιμεταθέτει 
-//The swap function takes 2 variables and replaces it
+//In the swap function, two variables are swapped
 //[..,5, .. ,2,..]  -->  [..,2, .. ,5,..]
 void swap(int *i, int *j){
     int tmp = *i;
@@ -29,7 +29,7 @@ void bubbleSort(int arr[], int size){
 //h main sunartisi poy elegxh to programma
 int main(int argc, const char* argv[]) {
     //Αρχικοποίηση του πινάκα
-    //Initialization the table
+    //Initialization of the table
     int arr[] = {2,324,435,435,456,5647,3452,432,324,3425,43,5,5,343,23};
     //Βρίσκει το μέγεθος του πίνακα
     //Finds the size of the table 
