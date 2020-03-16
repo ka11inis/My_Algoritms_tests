@@ -88,7 +88,6 @@ void fill_array(int* arr){
     }
 }
 
-//
 int main (int argc, char* argv){
     int arr[ARR_LEN];
     fill_array( &arr[0] );
