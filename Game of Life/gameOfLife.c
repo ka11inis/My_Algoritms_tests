@@ -48,7 +48,6 @@ void initTable(){
     }
 }
 
-
 void printTable(){
     for (int i=0; i < ROW; i++){
         for (int j=0; j<COL; j++){
@@ -87,7 +86,6 @@ int setCell(const int row, const int col){
             else if ( arr[row + i][col + j] == alive ) neighboursAlive += 1 ;
         }
     }
-
     if(neighboursAlive == 2 && arr[row][col] ) return  alive;
     if(neighboursAlive == 3  ) return  alive;
     if(neighboursAlive < 2 ) return dead;
