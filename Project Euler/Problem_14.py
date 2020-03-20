@@ -1,5 +1,5 @@
 #Euler Project
-#Problem 13
+#Problem 14
 #slow, but works
 
 import time
