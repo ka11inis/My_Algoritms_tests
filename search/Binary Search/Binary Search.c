@@ -49,7 +49,6 @@ void fill_array(int* arr){
 
 //
 int compare_two_elements(const void *p1, const void *p2){
-    //printf ( "%d\n", (*(int*)p1 - *(int*)p2 ) );
     return (*(int*)p1 - *(int*)p2 );
 }
 //Η βασική συνάρτηση που αρχικοποιεί τον πίνακα και επιστρέφει τη θέση
