@@ -32,6 +32,7 @@ int binary_search(int arr[], int left, int right, int x){
         //it can only be present in the left subarray
         if (arr[middle] > x)
             return binary_search(arr, left, middle - 1, x);
+
         //Αλλιώς το στοιχείο θα είναι μεγαλύτερο από το μεσαίο (mid)
         //και κάνει binary search μόνο τον δεξιό πίνακα
         //else it can be present in the right subarray
@@ -50,7 +51,6 @@ void fill_array(int* arr){
     }
 }
 
-//
 int compare_two_elements(const void *p1, const void *p2){
     return (*(int*)p1 - *(int*)p2 );
 }
