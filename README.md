@@ -1,4 +1,4 @@
-# My_Algoritms_tests
+# My Algoritms tests
 
 Εδώ δοκιμάζω και εξερευνώ διάφορους αλγορίθμους 
 
@@ -19,7 +19,7 @@ Here I test and explore various algorithms
 ##### Search Algorithms
 
  - [Linear Search](https://github.com/ka11inis/My_Algoritms_tests/tree/master/search/Linear%20Search)
- - [Binary Search]()
+ - [Binary Search](https://github.com/ka11inis/My_Algoritms_tests/tree/master/search/Binary%20Search)
  
 
 #
